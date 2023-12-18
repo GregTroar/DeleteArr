@@ -22,4 +22,4 @@ For example for me:
 Add only the last folder in your config file as per the config-sample.yml
 
 ## Radarr / Sonarr config
-Just go to settings / Connect / Custom Script and select the program and save
+Just go to settings / Connect / Custom Script and select the program then check only on Import and on Upgrade and save
