@@ -1,6 +1,6 @@
 gotify:
   enabled: false
-  server_url: https://gotify.rouggy.com
+  server_url: https://gotify.url.com
   token: 
 general:
   root_folders:
