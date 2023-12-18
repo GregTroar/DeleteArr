@@ -168,7 +168,7 @@ func main() {
 				mkvCount += 1
 			} else {
 				os.Remove(m.SourceFolder + "/" + v.Name())
-				log.Printf("Deleting file non MKV file: %v", m.SourceFolder+"/"+v.Name())
+				log.Printf("Deleting non MKV file: %v", m.SourceFolder+"/"+v.Name())
 			}
 		}
 
@@ -176,7 +176,7 @@ func main() {
 			log.Printf("Found %v MKV files in the folder, deleting only %v", mkvCount, m.SourcePath)
 			os.Remove(m.SourcePath)
 		} else {
-			log.Printf("Found only one MKV files in the folder, deleting thoe folder %v", m.SourceFolder)
+			log.Printf("Found only one MKV files in the folder, deleting the folder %v", m.SourceFolder)
 			os.RemoveAll(m.SourceFolder)
 		}
 
