@@ -140,7 +140,7 @@ func main() {
 		m.EventType = os.Getenv("sonarr_eventtype")
 		m.SourcePath = os.Getenv("sonarr_episodefile_sourcepath")
 		log.Printf("The Source Path is: %v", m.SourcePath)
-		m.SourceFolder = os.Getenv("radarr_moviefile_sourcefolder")
+		m.SourceFolder = os.Getenv("sonarr_episodefile_sourcefolder")
 		log.Printf("The Source Folder is: %v", m.SourceFolder)
 		m.Arr = "Sonarr"
 	}
