@@ -20,3 +20,6 @@ For example for me:
 /mnt/Multimedia/Download/PostProcess/Kids
 
 Add only the last folder in your config file as per the config-sample.yml
+
+## Radarr / Sonarr config
+Just go to settings / Connect / Custom Script and select the program and save
