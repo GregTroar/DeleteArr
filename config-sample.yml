@@ -1,0 +1,11 @@
+gotify:
+  enabled: false
+  server_url: https://gotify.rouggy.com
+  token: 
+general:
+  root_folders:
+    - Movies
+    - 4K-Movies
+    - Series
+    - 4K-Series
+    - Kids
